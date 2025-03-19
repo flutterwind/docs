@@ -5,9 +5,6 @@ const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  app: {
-    baseURL: '.', // Set the base URL for GitHub Pages
-  },
   modules: [
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
