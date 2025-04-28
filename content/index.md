@@ -8,7 +8,7 @@ navigation: false
 announcement:
   title: 'Code Tree Component'
   icon: lucide:folder-code
-  to: /components/docs/code-tree
+  to: /components/ui-blocks
 actions:
   - name: Get Started
     to: /getting-started/introduction

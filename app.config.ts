@@ -42,15 +42,9 @@ export default defineAppConfig({
           icon: 'lucide:rocket',
         }, {
           title: 'Components',
-          to: '/components/prose',
+          to: '/components/ui-blocks',
           description: 'Explore available UI components and usage examples.',
           icon: 'lucide:box',
-        }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
-          target: '_self',
-          icon: 'lucide:code',
         }],
       }, {
         title: 'Libraries',
