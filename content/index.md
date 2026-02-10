@@ -6,28 +6,27 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Code Tree Component'
+  title: 'Flutter utility-first styling for Flutter'
   icon: lucide:folder-code
-  to: /components/ui-blocks
+  to: /components/utility-reference
 actions:
   - name: Get Started
     to: /getting-started/introduction
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/flutterwind/flutterwind
     leftIcon: 'lucide:github'
-  - name: Sponsor
+  - name: Utility Reference
     variant: outline
-    target: _blank
-    to: https://ko-fi.com/ztl_uwu
-    leftIcon: 'lucide:heart'
+    to: /components/utility-reference
+    leftIcon: 'lucide:book-open'
 ---
 
 #title
-Effortless and Beautiful :br Docs Template.
+Build Flutter UIs faster :br with Flutterwind.
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+Flutterwind brings Tailwind-style utility classes to Flutter widgets so you can style directly in code. :br Learn installation, configuration, responsive design, and practical utility usage.
 ::
 
 ::div{class="border rounded-lg shadow-md"}

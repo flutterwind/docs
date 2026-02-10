@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../flutterwind"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}

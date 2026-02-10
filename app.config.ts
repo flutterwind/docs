@@ -50,9 +50,11 @@ export default defineAppConfig({
         title: 'Libraries',
         links: [{
           title: 'shadcn-flutter',
-          to: 'https://ui.shadcn.com/',
-          description: 'For the beautiful component design & docs design',
-          target: '_blank',
+          description: 'For beautiful Flutter components and integrations.',
+          badge: {
+            value: 'Coming soon',
+            variant: 'secondary',
+          },
         }],
       }],
       links: [{

@@ -42,10 +42,15 @@ interface DefaultConfig {
       showLinkIcon: boolean;
       links: ({
         title: string;
-        to: string;
-        target: string;
+        to?: string;
+        target?: string;
         description: string;
         icon?: string;
+        badge?: {
+          value: string;
+          type?: string;
+          variant?: 'default' | 'secondary' | 'destructive' | 'outline';
+        };
       })[];
     })[];
     links: ({
