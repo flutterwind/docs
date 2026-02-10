@@ -1,7 +1,7 @@
 <template>
   <NavigationMenuRoot
     v-bind="forwarded"
-    :class="cn('relative z-10 flex max-w-max flex-1 items-center justify-center', props.class)"
+    :class="cn('relative z-50 flex max-w-max flex-1 items-center justify-center', props.class)"
   >
     <slot />
     <NavigationMenuViewport />

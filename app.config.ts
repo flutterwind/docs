@@ -37,12 +37,12 @@ export default defineAppConfig({
         title: 'Docs',
         links: [{
           title: 'Getting Started',
-          to: '/getting-started',
+          to: '/getting-started/introduction',
           description: 'Start building your document with shadcn-docs-nuxt',
           icon: 'lucide:rocket',
         }, {
           title: 'Components',
-          to: '/components/ui-blocks',
+          to: '/components/utility-reference',
           description: 'Explore available UI components and usage examples.',
           icon: 'lucide:box',
         }],
