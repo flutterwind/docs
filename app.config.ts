@@ -169,7 +169,7 @@ export default defineAppConfig({
         showLinkIcon: true,
       }],
       carbonAds: {
-        enable: true,
+        enable: false,
         disableInDev: true,
         disableInMobile: false,
         fallback: false,
