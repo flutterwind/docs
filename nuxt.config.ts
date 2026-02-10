@@ -5,6 +5,13 @@ const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+      ],
+    },
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
