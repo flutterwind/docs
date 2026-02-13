@@ -20,8 +20,8 @@ export default defineAppConfig({
     banner: {
       enable: false,
       showClose: true,
-      content: 'Welcome to **shadcn-docs-nuxt**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      content: 'Welcome to **Flutterwind**',
+      to: 'https://github.com/flutterwind/docs',
       target: '_blank',
       border: true,
     },
@@ -38,7 +38,7 @@ export default defineAppConfig({
         links: [{
           title: 'Getting Started',
           to: '/getting-started/introduction',
-          description: 'Start building your document with shadcn-docs-nuxt',
+          description: 'Start integrating Flutterwind into your Flutter app',
           icon: 'lucide:rocket',
         }, {
           title: 'Components',
@@ -76,7 +76,7 @@ export default defineAppConfig({
       codeCopyIcon: 'lucide:copy',
       editLink: {
         enable: true,
-        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/content/:path',
+        pattern: 'https://github.com/flutterwind/docs/edit/main/content/:path',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter', 'toc'],
@@ -158,13 +158,13 @@ export default defineAppConfig({
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/flutterwind/docs',
         target: '_blank',
         showLinkIcon: true,
       }, {
         title: 'Create Issues',
         icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+        to: 'https://github.com/flutterwind/docs/issues',
         target: '_blank',
         showLinkIcon: true,
       }],
